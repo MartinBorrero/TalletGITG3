@@ -1,5 +1,9 @@
 package Model;
 
 public class Person {
-    Private int age;
+    private int age;
+
+    public Person(int age) {
+        this.age = age;
+    }
 }
